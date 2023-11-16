@@ -30,7 +30,7 @@ const goToNextTrack = () => {
       <div className="App-images">
         <p>Il va falloir modifier le code pour faire un vrai blind test !</p>
       </div>
-      <audio src={tracks[trackIndex]} autoPlay controls />
+      <audio src={trackUrls[trackIndex]} autoPlay controls />
       <button onClick={goToNextTrack}>
         Next track
       </button>
